@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-weight: 900;
+	font-family: 'Montserrat';
+}
+.offer p{
+	margin: 0;
+	width: 400px;
+	
+}
+a{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: #49b4f7;
+	padding-top: 65px;
+	color: #fff;
+}
+h1{
+	font-family: 'Montserrat';
+	font-style: 37px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	
+}
+h2{
+	font-family: 'Montserrat';
+	font-style: 30px;
+	font-weight: 700;
+}
+h1 span{
+	font-weight: 900;
+	font-size: 59px;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 212px;
+}
+.logo{
+	
+}
+.offer{	
+	margin-top: -100px;
+}
+.btn{
+	margin-top: 30px;
+	font-weight: 900;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	width: 168px;
+	background-color: #ffd429;
+	padding: 22px 28px;
+}
+.img{
+	margin-right: -61px;
+}
+.content{
+	padding: 100px 0;
+}
+.content1 h2{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 61px;
+	font-weight: 900;
+
+}
+.plan{
+	display: block;
+	width: 317px;
+	text-align: center;
+}
+.plan img{
+	margin-bottom: 15px;
+}
+.plans{
+display: flex;
+justify-content: space-between;
+}
+.section3{
+	background: #ecf3f8;
+}
+.future{
+	padding: 100px 0;
+}
+.future h2{
+	font-weight: 900;
+	display: flex;
+	justify-content: center;
+}
+
+.form{
+	width: 345px;
+	margin: 0 auto;
+	padding-top: 58px;
+}
+.inputs{
+	width: 345px;
+	height: 49px;
+	border: 1px solid #aeadb0;
+	border-radius: 1px;
+	margin-bottom: 17px;
+	box-sizing: border-box;
+
+
+}
+.btn2{
+	box-sizing: border-box;
+	width: 345px;
+	text-align: center;
+	 
+}
+
+input[placeholder]{
+	
+	padding: 0 10px;
+}
+::-webkit-input-placeholder{
+	color: #aeadb0;;
+}
+.footer{
+	background: #164d7a;
+}
+.footer .container p{
+	padding: 55px 0;
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+}
