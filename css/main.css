@@ -33,7 +33,7 @@ a{
 }
 h1{
 	font-family: 'Montserrat';
-	font-style: 37px;
+	font-size: 37px;
 	font-weight: 700;
 	margin-bottom: 30px;
 	
@@ -82,6 +82,7 @@ h1 span{
 	justify-content: center;
 	margin-bottom: 61px;
 	font-weight: 900;
+	text-align: center;
 
 }
 .plan{
@@ -107,6 +108,7 @@ justify-content: space-between;
 	font-weight: 900;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 .form{
@@ -154,4 +156,111 @@ input[placeholder]{
 	font-size: 14px;
 	color: #fff;
 	margin: 0;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.main{
+		flex-direction: column;
+		align-items: self-start;
+	}
+	.offer{
+		margin-top: 30px;
+		width: 100%;
+		text-align: center;
+		
+	}
+	.offer h1{
+
+		
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.offer p{
+	margin: 0 auto;
+	
+	width: 80%;
+	}
+	.offer .btn{
+
+		margin: 32px auto;
+    	width: 300px;
+}
+	
+	.main .img{
+		margin: 0 auto;
+		width: 100%
+	}
+	.logo{
+		display:flex;
+		margin:0 auto;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+
+	}
+
+	
+
+	.plans{
+	flex-direction: column;
+	}
+	.plan{
+	width: 100%;
+    margin-bottom: 30px;
+	}
+	.plan p{
+		margin-top: 8px;
+	}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+
+	}
+		.offer .btn{
+    	width: 200px;
+	}
+	h1 {
+    font-size: 25px;
+	}
+	p{
+		font-size: 14px;
+	}
+	h1 span{
+		font-size: 30px;
+	}
+	.form{
+		width: 100%;
+
+	}
+	.btn2{
+		width: 100%;
+	}
+	.inputs{
+		width: 100%;
+	}
+	.footer.container p{
+		font-size: 11px;
+	}
+
 }
